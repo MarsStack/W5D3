@@ -9,19 +9,21 @@ body {
   background-color: #FEFFF1;
   width: 700px;
   margin: 0 auto;
-  
 }
 
 aside {
   width: 180px;
   margin-right: 15px;
   float: left;
-  display: inline;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 section {
+  width: 400px;
   float: right;
-  display: inline;
+  display: inline-block;
 }
 
 a {
@@ -54,6 +56,11 @@ header > img {
 
   /* The list style property is shorthand for multiple list-style properties*/
   list-style: square inside;
+}
+
+h2#directions {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 ol {
