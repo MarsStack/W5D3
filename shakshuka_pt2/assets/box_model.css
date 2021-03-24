@@ -1,12 +1,23 @@
 /* Introduction to Cascading Style Sheets */
 nav {
-    display: inline-block
-   
+    display: inline-block;
 }
+
 body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+  width: 700px;
+  margin: 0 auto;
+}
+
+aside {
+  width: 180px;
+  margin-right: 15px;
+}
+
+section {
+  margin-left: 15px;
 }
 
 a {
