@@ -9,6 +9,11 @@ body {
   background-color: #FEFFF1;
   width: 700px;
   margin: 0 auto;
+  
+}
+
+input {
+  display: block;
 }
 
 aside {
