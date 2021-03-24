@@ -9,15 +9,19 @@ body {
   background-color: #FEFFF1;
   width: 700px;
   margin: 0 auto;
+  
 }
 
 aside {
   width: 180px;
   margin-right: 15px;
+  float: left;
+  display: inline;
 }
 
 section {
-  margin-left: 15px;
+  float: right;
+  display: inline;
 }
 
 a {
