@@ -1,9 +1,16 @@
 /* Introduction to Cascading Style Sheets */
-
+nav {
+    display: inline-block
+   
+}
 body {
   /* If the user cannot load the Arial font, the sans-serif font is used */
   font-family: Arial, sans-serif;
   background-color: #FEFFF1;
+}
+
+a {
+  padding: 20px;
 }
 
 h1 {
